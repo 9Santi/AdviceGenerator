@@ -13,7 +13,7 @@ function clearData() {
 }
 
 function fetchData(apiUrl) {
-  fetch(apiUrl)
+  fetch(apiUrl, { cache: "no-cache" })
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
