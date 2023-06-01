@@ -1,0 +1,1 @@
+curl `https://api.adviceslip.com/advice` HTTP/1.1
